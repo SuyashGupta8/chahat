@@ -1,0 +1,54 @@
+.bulletSection { 
+  font-weight: bold;
+  color: #111;
+  font-family: 'Helvetica Neue' sans-serif; 
+}
+
+.childbulletSection { 
+  font-weight: normal;
+  position:relative; 
+  left:50px; //for relative postion it will move paragrapgh tag to 50px left from the existing boundary  
+}
+
+.MyImage {
+  border-radius: 50%;
+  position:relative;
+  left:50px;
+}
+
+.breakDivsion { 
+  margin-bottom: 16px;
+  margin-top: 10px
+}
+
+.newLine {
+    display: block;
+    margin-bottom: 2px;
+    line-height: 2px;
+	line-width:20px;
+}
+
+.divClass { 
+  position:relative;
+  left:50px;
+  font-weight: bold;
+  color: #111;
+  font-family: 'Helvetica Neue' sans-serif; 
+}
+.childdivClass { 
+  position:relative;
+  font-weight: normal;
+  color: #111;
+  font-family: 'Helvetica Neue' sans-serif; 
+}
+.myTable {
+	border: 2px solid black;
+}
+
+.tableRow {
+	border: 2px solid black;
+}
+
+.tableCell {
+	border: 2px solid black;
+}
