@@ -2,6 +2,9 @@
   font-weight: bold;
   color: #111;
   font-family: 'Helvetica Neue' sans-serif; 
+  position:relative;
+  top:20px;
+  bottom:20px;
 }
 
 .childbulletSection { 
@@ -10,7 +13,7 @@
   left:50px; //for relative postion it will move paragrapgh tag to 50px left from the existing boundary  
 }
 
-.MyImage {
+.myImageClass {
   border-radius: 50%;
   position:relative;
   left:50px;
@@ -23,9 +26,10 @@
 
 .newLine {
     display: block;
-    margin-bottom: 2px;
     line-height: 2px;
 	line-width:20px;
+	position:relative;
+	top:20px;
 }
 
 .divClass { 
@@ -34,6 +38,8 @@
   font-weight: bold;
   color: #111;
   font-family: 'Helvetica Neue' sans-serif; 
+  position:relative;
+  top:20px;
 }
 .childdivClass { 
   position:relative;
@@ -42,13 +48,23 @@
   font-family: 'Helvetica Neue' sans-serif; 
 }
 .myTable {
-	border: 2px solid black;
+	position:relative;
+	left:50px;
+	top:30px;
 }
 
 .tableRow {
 	border: 2px solid black;
+	position:relative;
 }
 
 .tableCell {
 	border: 2px solid black;
+	position:relative;
+	
+}
+
+.hiddenClass{visibility: hidden;
+    position:relative;
+	left:50px;
 }
